@@ -35,7 +35,7 @@ def main():
         download_stories(loader, profile, today)
         
         # Download posts and reels
-        download_content(loader, profile, today)
+        download_content(loader, profile)
         
     except Exception as e:
         logger.error(f"Fatal error: {str(e)}")
