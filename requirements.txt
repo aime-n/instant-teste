@@ -1,0 +1,4 @@
+schedule
+instaloader
+python-dotenv
+loguru
